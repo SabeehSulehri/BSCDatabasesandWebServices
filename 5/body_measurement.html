@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Body Measurement Entry</title>
+</head>
+<body>
+    <h2>Body Measurement Entry</h2>
+    <form method="post" action="body_measurement.php">
+        <label for="Height">Height (cm):</label>
+        <input type="number" step="0.01" name="Height" required><br><br>
+
+        <label for="Weight">Weight (kg):</label>
+        <input type="number" step="0.01" name="Weight" required><br><br>
+
+        <label for="BodyMassIndex">Body Mass Index:</label>
+        <input type="number" step="0.01" name="BodyMassIndex" required><br><br>
+
+        <label for="BodyFatPercentage">Body Fat Percentage:</label>
+        <input type="number" step="0.01" name="BodyFatPercentage" required><br><br>
+
+        <label for="UserID">UserID (linked to Users):</label>
+        <input type="number" name="UserID" required><br><br>
+
+        <input type="submit" value="Add Measurement">
+    </form>
+</body>
+</html>
